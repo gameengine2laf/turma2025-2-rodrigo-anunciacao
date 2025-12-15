@@ -2049,3 +2049,21 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.15-15.11.27:539][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
 [2025.12.15-15.11.27:557][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
 [2025.12.15-15.11.27:570][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.12.15-15.11.54:137][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.15-15.11.54:270][151]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_UAID_047C169B61C9CEAB02_1128929327 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/C7/7ETQDTRZDW8YDNMIPPACI1.PackageMetaData in its package
+[2025.12.15-15.11.54:273][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.12.15-15.11.54:288][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.12.15-15.11.54:305][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.12.15-15.11.54:307][151]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH
+[2025.12.15-15.11.54:308][151]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/4G649E8N4W5WZLPOD01TWH0224E218464870BD9D81F6811C55F23C.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH.uasset'
+[2025.12.15-15.11.54:323][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 186.047 ms (total: 311.987 ms)
+[2025.12.15-15.11.54:386][151]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.15-15.11.54:386][151]LogContentValidation: Enabled validators:
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.15-15.11.54:386][151]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.12.15-15.11.54:408][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
