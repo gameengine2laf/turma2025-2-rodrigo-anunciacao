@@ -1833,3 +1833,219 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.15-14.45.45:427][544]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.12.15-14.45.45:427][544]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.12.15-14.45.45:427][544]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.12.15-14.46.21:530][ 71]LogStreaming: Display: FlushAsyncLoading(742): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-14.46.21:535][ 71]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_plataform.BP_plataform
+[2025.12.15-14.46.21:535][ 71]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.12.15-14.46.21:820][ 71]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.12.15-14.46.38:468][488]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.12.15-14.46.38:502][489]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2025.12.15-14.46.43:947][884]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Platfm.BP_Platfm
+[2025.12.15-14.46.43:947][884]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.12.15-14.47.57:509][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 715.386902
+[2025.12.15-14.47.57:684][408]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-14.47.57:684][408]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 715.548462, Update Interval: 332.754913
+[2025.12.15-14.53.37:144][532]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1055.019653
+[2025.12.15-14.53.37:301][546]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-14.53.37:301][546]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1055.165771, Update Interval: 338.330627
+[2025.12.15-14.53.49:888][872]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.12.15-14.54.16:445][846]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2025.12.15-14.54.16:445][846]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.TriggerBox
+[2025.12.15-14.54.16:451][846]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_UAID_047C169B61C9CEAB02_1128929327
+[2025.12.15-14.54.16:451][846]LogActorFactory: Actor Factory spawned Class /Script/Engine.TriggerBox as actor: TriggerBox /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.TriggerBox_UAID_047C169B61C9CEAB02_1128929327
+[2025.12.15-14.54.19:912][238]Cmd: DELETE
+[2025.12.15-14.54.19:912][238]Cmd: ACTOR DELETE
+[2025.12.15-14.54.19:915][238]LogEditorActor: Deleted Actor: TriggerBox
+[2025.12.15-14.54.19:981][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.12.15-14.54.19:984][238]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2025.12.15-14.54.53:030][747]LogSlate: Window 'BP_Platfm' being destroyed
+[2025.12.15-14.54.53:038][747]LogSlate: Window 'BP_Platfm' being destroyed
+[2025.12.15-14.54.53:080][747]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-14.54.53:080][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-14.54.53:114][747]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-14.54.53:114][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-14.54.53:150][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.15-14.54.53:150][747]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-14.54.53:150][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-14.54.53:200][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.12.15-14.55.57:052][364]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.15-14.55.57:056][364]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.12.15-14.55.57:056][364]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.12.15-14.55.57:061][364]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 5.174 ms (total: 21.020 ms)
+[2025.12.15-14.55.57:061][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.15-14.55.57:061][364]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2025.12.15-14.55.57:063][364]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.12.15-14.55.57:091][365]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.12.15-14.55.57:104][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011627s)
+[2025.12.15-14.55.57:104][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011671s)
+[2025.12.15-14.55.57:119][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.15-14.55.57:122][365]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.12.15-14.55.57:123][365]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.15-14.55.57:123][365]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.15-14.55.57:123][365]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.15-14.55.57:123][365]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.15-14.55.57:126][365]LogWorldPartition: Display: WorldPartition initialize took 3.674 ms (total: 993.863 ms)
+[2025.12.15-14.55.57:126][365]LogPlayLevel: PIE: World Init took: (0.005169s)
+[2025.12.15-14.55.57:127][365]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.15-14.55.57:127][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.12.15-14.55.57:127][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.15-14.55.57:127][365]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.15-14.55.57:127][365]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.15-14.55.57:127][365]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.15-14.55.57:130][365]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.15-14.55.57:150][365]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2025.12.15-14.55.57:150][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.15-14.55.57:150][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.15-14.55.57:150][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.15-14.55.57:151][365]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.12.15-14.55.57:151][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.12.15-14.55.57:153][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.12.15-14.55.57:153][365]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.12.15-14.55.57:153][365]LogInit: FAudioDevice initialized with ID 5.
+[2025.12.15-14.55.57:153][365]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2025.12.15-14.55.57:153][365]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.15-14.55.57:156][365]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.12.15-14.55.57:161][365]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.12.15-11.55.57
+[2025.12.15-14.55.57:161][365]LogWorld: Bringing up level for play took: 0.005028
+[2025.12.15-14.55.57:164][365]PIE: Server logged in
+[2025.12.15-14.55.57:165][365]PIE: Play in editor total start time 0,109 seconds.
+[2025.12.15-14.57.29:209][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.15-14.57.29:209][353]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.12.15-14.57.29:209][353]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-14.57.29:211][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-14.57.29:211][353]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.12.15-14.57.29:215][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.15-14.57.29:218][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-14.57.29:235][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.15-14.57.29:236][353]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.15-14.57.29:236][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.12.15-14.57.29:238][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.12.15-14.57.29:246][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.12.15-14.57.29:314][354]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.12.15-14.58.04:492][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.15-14.58.04:494][212]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.018
+[2025.12.15-14.58.15:182][473]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FirstPersonMap
+[2025.12.15-14.58.15:182][473]LogChaosDD: Creating Chaos Debug Draw Scene for world World_10
+[2025.12.15-14.59.29:560][323]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1407.423462
+[2025.12.15-14.59.29:719][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-14.59.29:719][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1407.572876, Update Interval: 306.419861
+[2025.12.15-15.05.07:339][205]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1745.205688
+[2025.12.15-15.05.08:341][207]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-15.05.08:341][207]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1745.875244, Update Interval: 341.245758
+[2025.12.15-15.08.04:123][993]LogSlate: Window 'FirstPersonMap' being destroyed
+[2025.12.15-15.08.04:129][993]LogSlate: Window 'FirstPersonMap' being destroyed
+[2025.12.15-15.08.04:132][993]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-15.08.04:132][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-15.08.04:209][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.12.15-15.08.04:765][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.15-15.08.04:766][ 43]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.018
+[2025.12.15-15.08.29:262][787]LogChaosDD: Creating Chaos Debug Draw Scene for world World_11
+[2025.12.15-15.10.12:590][929]LogStreaming: Display: FlushAsyncLoading(745): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.10.12:655][929]LogInterchangeEngine: [Pending] Importing
+[2025.12.15-15.10.12:655][929]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowrt.tga]
+[2025.12.15-15.10.12:788][931]LogStreaming: Display: FlushAsyncLoading(755): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.10.12:846][933]LogTexture: Display: Building textures: /Game/LevelPrototyping/Textures/snowrt.snowrt (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.12:976][934]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowrt.tga]
+[2025.12.15-15.10.12:983][934]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.12.15-15.10.12:983][934]LogInterchangeEngine: [Success] Import Done
+[2025.12.15-15.10.21:660][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.15-15.10.22:813][833]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.15-15.10.22:889][833]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/LevelPrototyping/Textures/snowrt_Mat.snowrt_Mat
+	Asset Type: Material
+[2025.12.15-15.10.23:174][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.12.15-15.10.23:192][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.12.15-15.10.23:208][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.12.15-15.10.24:019][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.12.15-15.10.25:144][919]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.15-15.10.25:172][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.15-15.10.25:186][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.12.15-15.10.25:199][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.12.15-15.10.40:353][689]LogStreaming: Display: FlushAsyncLoading(756): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.10.40:369][689]LogInterchangeEngine: [Pending] Importing
+[2025.12.15-15.10.40:371][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/detail/snow1122ff.tga]
+[2025.12.15-15.10.40:371][689]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.12.15-15.10.40:371][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/detail/snowMozaik.tga]
+[2025.12.15-15.10.40:372][689]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.12.15-15.10.40:372][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/detail/snowPateka.tga]
+[2025.12.15-15.10.40:372][689]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.12.15-15.10.40:372][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/detail/snowWall.tga]
+[2025.12.15-15.10.40:373][689]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.12.15-15.10.40:373][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/detail/snowWood.tga]
+[2025.12.15-15.10.40:373][689]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.12.15-15.10.40:373][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowbk.tga]
+[2025.12.15-15.10.40:374][689]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.12.15-15.10.40:374][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowdn.tga]
+[2025.12.15-15.10.40:374][689]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.12.15-15.10.40:374][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowft.tga]
+[2025.12.15-15.10.40:375][689]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.12.15-15.10.40:375][689]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowlf.tga]
+[2025.12.15-15.10.40:375][689]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.12.15-15.10.40:376][689]LogInterchangeEngine: [Pending] Importing -  (11)
+[2025.12.15-15.10.40:387][689]LogAssetTools: Warning: Failed to import 'C:\Users\Aluno\Downloads\fy_snow - HD/cstrike/maps/fy_snow2_detail.txt'. Unknown extension 'txt'.
+[2025.12.15-15.10.40:403][689]LogAssetTools: Warning: Failed to import 'C:\Users\Aluno\Downloads\fy_snow - HD/cstrike/maps/fy_snow32_detail.txt'. Unknown extension 'txt'.
+[2025.12.15-15.10.40:419][689]LogAssetTools: Warning: Failed to import 'C:\Users\Aluno\Downloads\fy_snow - HD/cstrike/maps/fy_snow3_detail.txt'. Unknown extension 'txt'.
+[2025.12.15-15.10.40:436][689]LogAssetTools: Warning: Failed to import 'C:\Users\Aluno\Downloads\fy_snow - HD/cstrike/maps/fy_snow_32_detail.txt'. Unknown extension 'txt'.
+[2025.12.15-15.10.40:454][689]LogAssetTools: Warning: Failed to import 'C:\Users\Aluno\Downloads\fy_snow - HD/cstrike/maps/fy_snow_detail.txt'. Unknown extension 'txt'.
+[2025.12.15-15.10.41:254][691]LogStreaming: Display: FlushAsyncLoading(767): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.10.41:269][692]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/env/snowdn.snowdn (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:270][692]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/env/snowlf.snowlf (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:271][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/env/snowft.snowft (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:280][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff.snow1122ff (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:281][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik.snowMozaik (BGRA8, 512x171 x1x1x1) (Required Memory Estimate: 4.005859 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:285][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka.snowPateka (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:285][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall.snowWall (BGRA8, 273x512 x1x1x1) (Required Memory Estimate: 5.798828 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:285][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood.snowWood (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:285][693]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/env/snowbk.snowbk (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowdn.tga]
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: [Pending] Importing -  (10)
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowrt.tga]
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowlf.tga]
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: [Pending] Importing -  (9)
+[2025.12.15-15.10.41:286][693]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Aluno/Downloads/fy_snow - HD/cstrike/gfx/env/snowup.tga]
+[2025.12.15-15.10.41:298][694]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...D/cstrike/gfx/detail/snow1122ff.tga]
+[2025.12.15-15.10.41:298][694]LogInterchangeEngine: [Pending] Importing -  (8)
+[2025.12.15-15.10.41:298][694]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...D/cstrike/gfx/detail/snowMozaik.tga]
+[2025.12.15-15.10.41:298][694]LogInterchangeEngine: [Pending] Importing -  (7)
+[2025.12.15-15.10.41:299][694]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...D/cstrike/gfx/detail/snowWall.tga]
+[2025.12.15-15.10.41:299][694]LogInterchangeEngine: [Pending] Importing -  (6)
+[2025.12.15-15.10.41:299][694]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowbk.tga]
+[2025.12.15-15.10.41:299][694]LogInterchangeEngine: [Pending] Importing -  (5)
+[2025.12.15-15.10.41:300][694]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowft.tga]
+[2025.12.15-15.10.41:300][694]LogInterchangeEngine: [Pending] Importing -  (4)
+[2025.12.15-15.10.41:308][695]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...D/cstrike/gfx/detail/snowPateka.tga]
+[2025.12.15-15.10.41:308][695]LogInterchangeEngine: [Pending] Importing -  (3)
+[2025.12.15-15.10.41:308][695]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...D/cstrike/gfx/detail/snowWood.tga]
+[2025.12.15-15.10.41:308][695]LogInterchangeEngine: [Pending] Importing -  (2)
+[2025.12.15-15.10.41:315][696]LogStreaming: Display: FlushAsyncLoading(776): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.10.41:336][698]LogTexture: Display: Building textures: /Game/fy_snow_-_HD/cstrike/gfx/env/snowup.snowup (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 8.458304 MB), EncodeSpeed: Fast
+[2025.12.15-15.10.41:336][698]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowrt.tga]
+[2025.12.15-15.10.41:336][698]LogInterchangeEngine: [Pending] Importing -  (1)
+[2025.12.15-15.10.41:352][700]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Aluno/Downl...- HD/cstrike/gfx/env/snowup.tga]
+[2025.12.15-15.10.41:352][700]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.12.15-15.10.41:352][700]LogInterchangeEngine: [Success] Import Done
+[2025.12.15-15.10.59:630][810]LogContentBrowser: Deferred new asset file creation: snowup_Mat
+[2025.12.15-15.10.59:648][810]LogContentBrowser: Creating deferred item: snowup_Mat
+[2025.12.15-15.10.59:658][811]LogContentBrowser: Renaming the item being created (Deferred Item: snowup_Mat).
+[2025.12.15-15.11.09:094][943]LogContentBrowser: Attempting asset rename: snowup_Mat -> snowup_Mat
+[2025.12.15-15.11.09:099][943]LogContentBrowser: End creating deferred item snowup_Mat
+[2025.12.15-15.11.19:484][ 98]LogContentBrowser: Deferred new asset file creation: snowrt_Mat
+[2025.12.15-15.11.19:502][ 98]LogContentBrowser: Creating deferred item: snowrt_Mat
+[2025.12.15-15.11.19:510][ 99]LogContentBrowser: Renaming the item being created (Deferred Item: snowrt_Mat).
+[2025.12.15-15.11.22:923][509]LogContentBrowser: Attempting asset rename: snowrt_Mat -> snowrt_Mat
+[2025.12.15-15.11.22:923][509]LogContentBrowser: End creating deferred item snowrt_Mat
+[2025.12.15-15.11.25:444][766]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2123.298828
+[2025.12.15-15.11.25:593][780]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-15.11.25:593][780]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2123.438721, Update Interval: 344.591217
+[2025.12.15-15.11.26:564][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.12.15-15.11.27:506][888]LogSlate: Window 'Delete Assets' being destroyed
+[2025.12.15-15.11.27:539][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.12.15-15.11.27:557][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.12.15-15.11.27:570][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
