@@ -2067,3 +2067,272 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.15-15.11.54:386][151]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.12.15-15.11.54:386][151]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
 [2025.12.15-15.11.54:408][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.12.15-15.12.07:093][472]LogShaderCompilers: Display: ================================================
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Total job queries 196, among them cache hits 26 (13.27%), DDC hits 158 (80.61%), Duplicates 2 (1.02%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Tracking 168 distinct input hashes that result in 149 distinct outputs (88.69%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: RAM used: 120,48 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Job execution time: average 1.64 s, max 2.11 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Job life time (pending + execution): average 1.69 s, max 2.17
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Shader code size: average 8,654 KiB, min 4,883 KiB, max 12,753 KiB
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.17 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Average processing rate: 4.60 jobs/sec
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Total thread time: 5,001 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Total thread preprocess time: 2,79 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Percentage time preprocessing: 55.80%
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Effective parallelization: 2.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                             FDebugViewModePS - 19.29% of total time (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.87% of total time (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 14.92% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.17% of total time (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.93% of total time (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: === Material stats ===
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Materials Translated:    146
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Material Translation Only: 0.03 s (33%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: Material Cache Hits: 18 (12%)
+[2025.12.15-15.12.07:094][472]LogShaderCompilers: Display: ================================================
+[2025.12.15-15.12.11:335][689]LogContentBrowser: Deferred new asset file creation: snowup_Mat
+[2025.12.15-15.12.11:341][689]LogContentBrowser: Creating deferred item: snowup_Mat
+[2025.12.15-15.12.11:350][690]LogContentBrowser: Renaming the item being created (Deferred Item: snowup_Mat).
+[2025.12.15-15.12.20:261][759]LogContentBrowser: Attempting asset rename: snowup_Mat -> snowup_Mat
+[2025.12.15-15.12.20:267][759]LogContentBrowser: End creating deferred item snowup_Mat
+[2025.12.15-15.14.50:748][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.12.15-15.14.52:495][264]LogSlate: Window 'Save Content' being destroyed
+[2025.12.15-15.14.54:262][471]LogStreaming: Display: FlushAsyncLoading(778): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.14.54:267][471]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/FirstPerson/Maps/FirstPersonMap_BuiltData.FirstPersonMap_BuiltData
+[2025.12.15-15.14.59:306][964]LogSlate: Window 'FirstPersonMap_BuiltData' being destroyed
+[2025.12.15-15.14.59:334][964]LogSlate: Window 'FirstPersonMap_BuiltData' being destroyed
+[2025.12.15-15.15.29:691][465]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.12.15-15.15.29:703][466]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2025.12.15-15.15.29:721][467]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2025.12.15-15.15.29:737][468]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2025.12.15-15.15.55:962][507]LogStreaming: Display: FlushAsyncLoading(779): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.16.02:484][233]LogStreaming: Display: FlushAsyncLoading(780): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.16.05:178][528]LogStreaming: Display: FlushAsyncLoading(781): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.16.08:943][923]LogStreaming: Display: FlushAsyncLoading(782): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.16.51:127][448]LogStreaming: Display: FlushAsyncLoading(783): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.15-15.17.44:953][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2502.829590
+[2025.12.15-15.17.45:088][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-15.17.45:089][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2502.957275, Update Interval: 337.585388
+[2025.12.15-15.18.06:251][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.12.15-15.18.06:259][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/77/76X6VRCQ13631HEC5GRZVK_Auto1
+[2025.12.15-15.18.06:259][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/76X6VRCQ13631HEC5GRZVK_Auto1DF38622B4FBDF93C0953A08872BA2AE3.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/77/76X6VRCQ13631HEC5GRZVK_Auto1.uasset'
+[2025.12.15-15.18.06:261][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Z6/LKXIZIV48JKQCUIDE0RRMH_Auto1
+[2025.12.15-15.18.06:261][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/LKXIZIV48JKQCUIDE0RRMH_Auto1EB254EC946E5EE307F47278DC7C9A949.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Z6/LKXIZIV48JKQCUIDE0RRMH_Auto1.uasset'
+[2025.12.15-15.18.06:263][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/UG/1EZI76LF09TDNXTPQ8HR7H_Auto1
+[2025.12.15-15.18.06:263][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/1EZI76LF09TDNXTPQ8HR7H_Auto1A7548D51478E1400250F7F8D7D786ABC.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/UG/1EZI76LF09TDNXTPQ8HR7H_Auto1.uasset'
+[2025.12.15-15.18.06:266][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ_Auto1
+[2025.12.15-15.18.06:266][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/UI1LCXSYKH91XRI7UH6XZQ_Auto173EBB1FC4A21DECFC6AFF6BFAFB93750.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ_Auto1.uasset'
+[2025.12.15-15.18.06:270][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH_Auto1
+[2025.12.15-15.18.06:270][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/4G649E8N4W5WZLPOD01TWH_Auto100F478F643E002EBEFF01E8E4B139498.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH_Auto1.uasset'
+[2025.12.15-15.18.06:273][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FH/LB6MWH9PFAC273487EYGVM_Auto1
+[2025.12.15-15.18.06:273][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/LB6MWH9PFAC273487EYGVM_Auto1BA0B898D4F3074A7DE370290E7F0651E.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FH/LB6MWH9PFAC273487EYGVM_Auto1.uasset'
+[2025.12.15-15.18.06:276][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SC/ZQBM6RBR8SEOLPC1B5NPG7_Auto1
+[2025.12.15-15.18.06:276][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/ZQBM6RBR8SEOLPC1B5NPG7_Auto1C2DD3D5C467C85A5B8233187E623FAD4.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SC/ZQBM6RBR8SEOLPC1B5NPG7_Auto1.uasset'
+[2025.12.15-15.18.06:276][138]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.061
+[2025.12.15-15.18.06:276][138]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.061
+[2025.12.15-15.18.06:279][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowup] ([1] browsable assets)...
+[2025.12.15-15.18.06:283][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowup.snowup]
+[2025.12.15-15.18.06:283][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowup]
+[2025.12.15-15.18.06:284][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Auto1
+[2025.12.15-15.18.06:284][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowup_Auto1D6489B2B40656D915827648095BC4C8D.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Auto1.uasset'
+[2025.12.15-15.18.06:286][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff] ([1] browsable assets)...
+[2025.12.15-15.18.06:287][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff.snow1122ff]
+[2025.12.15-15.18.06:287][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff]
+[2025.12.15-15.18.06:289][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff_Auto1
+[2025.12.15-15.18.06:289][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snow1122ff_Auto1C083C45E40397EB0A7611980A14E1855.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snow1122ff_Auto1.uasset'
+[2025.12.15-15.18.06:290][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik] ([1] browsable assets)...
+[2025.12.15-15.18.06:291][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik.snowMozaik]
+[2025.12.15-15.18.06:291][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik]
+[2025.12.15-15.18.06:293][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik_Auto1
+[2025.12.15-15.18.06:293][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowMozaik_Auto15891A5844617DEC7015A38815A09E4DD.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowMozaik_Auto1.uasset'
+[2025.12.15-15.18.06:294][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka] ([1] browsable assets)...
+[2025.12.15-15.18.06:295][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka.snowPateka]
+[2025.12.15-15.18.06:295][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka]
+[2025.12.15-15.18.06:297][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka_Auto1
+[2025.12.15-15.18.06:297][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowPateka_Auto19A218C6B48CDE0571BE18BAAD027AFDE.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowPateka_Auto1.uasset'
+[2025.12.15-15.18.06:298][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall] ([1] browsable assets)...
+[2025.12.15-15.18.06:299][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall.snowWall]
+[2025.12.15-15.18.06:300][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall]
+[2025.12.15-15.18.06:301][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall_Auto1
+[2025.12.15-15.18.06:301][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowWall_Auto1AFE5BD0843A0B613199C4B923217D517.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWall_Auto1.uasset'
+[2025.12.15-15.18.06:302][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood] ([1] browsable assets)...
+[2025.12.15-15.18.06:304][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood.snowWood]
+[2025.12.15-15.18.06:304][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood]
+[2025.12.15-15.18.06:306][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood_Auto1
+[2025.12.15-15.18.06:306][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowWood_Auto1C70189D0450A25EFE3595BBCC35E322C.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/detail/snowWood_Auto1.uasset'
+[2025.12.15-15.18.06:307][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowbk] ([1] browsable assets)...
+[2025.12.15-15.18.06:309][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowbk.snowbk]
+[2025.12.15-15.18.06:309][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowbk]
+[2025.12.15-15.18.06:310][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowbk_Auto1
+[2025.12.15-15.18.06:310][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowbk_Auto16EEF3FFA4BE23DB1890047B5A4D410A4.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowbk_Auto1.uasset'
+[2025.12.15-15.18.06:312][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowdn] ([1] browsable assets)...
+[2025.12.15-15.18.06:313][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowdn.snowdn]
+[2025.12.15-15.18.06:313][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowdn]
+[2025.12.15-15.18.06:315][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowdn_Auto1
+[2025.12.15-15.18.06:315][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowdn_Auto1F97541FD4030770F60748281910D2F62.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowdn_Auto1.uasset'
+[2025.12.15-15.18.06:316][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowlf] ([1] browsable assets)...
+[2025.12.15-15.18.06:318][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowlf.snowlf]
+[2025.12.15-15.18.06:318][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowlf]
+[2025.12.15-15.18.06:319][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowlf_Auto1
+[2025.12.15-15.18.06:319][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowlf_Auto1F00B834442FF6BC85A4D9E9D5202B61D.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowlf_Auto1.uasset'
+[2025.12.15-15.18.06:320][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowft] ([1] browsable assets)...
+[2025.12.15-15.18.06:321][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowft.snowft]
+[2025.12.15-15.18.06:321][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowft]
+[2025.12.15-15.18.06:323][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowft_Auto1
+[2025.12.15-15.18.06:323][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowft_Auto1EC2F5F09404542AABA6F63862B22AA83.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowft_Auto1.uasset'
+[2025.12.15-15.18.06:324][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowrt] ([1] browsable assets)...
+[2025.12.15-15.18.06:326][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/fy_snow_-_HD/cstrike/gfx/env/snowrt.snowrt]
+[2025.12.15-15.18.06:326][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowrt]
+[2025.12.15-15.18.06:328][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowrt_Auto1
+[2025.12.15-15.18.06:328][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowrt_Auto1AFD1BC9943CC28418CF46AAF8D0D38AE.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowrt_Auto1.uasset'
+[2025.12.15-15.18.06:329][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Mat] ([1] browsable assets)...
+[2025.12.15-15.18.06:356][138]OBJ SavePackage:     Rendered thumbnail for [Material /Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Mat.snowup_Mat]
+[2025.12.15-15.18.06:356][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Mat]
+[2025.12.15-15.18.06:358][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Mat_Auto1
+[2025.12.15-15.18.06:358][138]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/snowup_Mat_Auto182A6D8FD4BAABA0A2E2A378891D59FA6.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/Autosaves/Game/fy_snow_-_HD/cstrike/gfx/env/snowup_Mat_Auto1.uasset'
+[2025.12.15-15.18.06:359][138]LogFileHelpers: Auto-saving content packages took 0.082
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: ================================================
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Total job queries 216, among them cache hits 36 (16.67%), DDC hits 158 (73.15%), Duplicates 2 (0.93%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Tracking 178 distinct input hashes that result in 154 distinct outputs (86.52%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: RAM used: 122,10 KiB of 1,60 GiB budget. Usage: 0.01%
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Shaders Compiled: 20
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Average time worker was idle: 78.22 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.10 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 2.11 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Job life time (pending + execution): average 1.12 s, max 2.17
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Shader code size: average 8,723 KiB, min 4,883 KiB, max 13,535 KiB
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.12 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Average processing rate: 3.90 jobs/sec
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Total thread time: 7,684 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Total thread preprocess time: 3,03 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Percentage time preprocessing: 39.43%
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Effective parallelization: 1.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.11% of total time (compiled    6 times, average 0.35 sec, max 0.45 sec, min 0.32 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.98% of total time (compiled    6 times, average 0.23 sec, max 0.33 sec, min 0.20 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                             FDebugViewModePS - 12.55% of total time (compiled    1 times, average 0.96 sec, max 0.96 sec, min 0.96 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 10.33% of total time (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 9.71% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: === Material stats ===
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Materials Translated:    152
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Material Translation Only: 0.03 s (34%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: Material Cache Hits: 18 (12%)
+[2025.12.15-15.18.07:100][225]LogShaderCompilers: Display: ================================================
+[2025.12.15-15.18.26:908][214]Cmd: TRANSACTION UNDO
+[2025.12.15-15.18.26:908][214]LogEditorTransaction: Undo Place Objects
+[2025.12.15-15.20.13:330][983]Cmd: TRANSACTION UNDO
+[2025.12.15-15.20.13:330][983]LogEditorTransaction: Undo Place Objects
+[2025.12.15-15.22.37:889][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.15-15.22.37:976][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.12.15-15.22.37:991][669]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.15-15.22.37:991][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/FirstPersonMap9C7A7DC348849580DC95649430BE2C02.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2025.12.15-15.22.37:998][669]LogFileHelpers: Saving map 'FirstPersonMap' took 0.053
+[2025.12.15-15.22.38:000][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/77/76X6VRCQ13631HEC5GRZVK
+[2025.12.15-15.22.38:000][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/76X6VRCQ13631HEC5GRZVK7B589A4A483A78346EABB19761D60273.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/77/76X6VRCQ13631HEC5GRZVK.uasset'
+[2025.12.15-15.22.38:002][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX
+[2025.12.15-15.22.38:003][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/YPSPM063O6XAJVKSDHY2JX76F9BAB94BF4A5E2401E3EAE77AF646E.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/OD/YPSPM063O6XAJVKSDHY2JX.uasset'
+[2025.12.15-15.22.38:005][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Z6/LKXIZIV48JKQCUIDE0RRMH
+[2025.12.15-15.22.38:005][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/LKXIZIV48JKQCUIDE0RRMHE532D566475CE2856D018B92B478709B.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/Z6/LKXIZIV48JKQCUIDE0RRMH.uasset'
+[2025.12.15-15.22.38:008][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/9M/RLCYX8UZ7MCIRNXMN0V5GR
+[2025.12.15-15.22.38:008][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/RLCYX8UZ7MCIRNXMN0V5GR8BD82F4C4C9FF71418FD459FBD08EDB0.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/9M/RLCYX8UZ7MCIRNXMN0V5GR.uasset'
+[2025.12.15-15.22.38:010][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/UG/1EZI76LF09TDNXTPQ8HR7H
+[2025.12.15-15.22.38:011][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/1EZI76LF09TDNXTPQ8HR7H667BEEB248122F0071BEE9B33649B5C5.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/UG/1EZI76LF09TDNXTPQ8HR7H.uasset'
+[2025.12.15-15.22.38:013][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/WS/M1ZXSBDJNEE3DJ0V485BEN
+[2025.12.15-15.22.38:013][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/M1ZXSBDJNEE3DJ0V485BEN405C591045F38306ED30A98207A08F2F.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/WS/M1ZXSBDJNEE3DJ0V485BEN.uasset'
+[2025.12.15-15.22.38:015][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ
+[2025.12.15-15.22.38:016][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/UI1LCXSYKH91XRI7UH6XZQEA973F26489CEF892E09638134A20586.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ.uasset'
+[2025.12.15-15.22.38:018][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH
+[2025.12.15-15.22.38:018][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/4G649E8N4W5WZLPOD01TWH701F1FD34FDA211F271A2692D5F759C0.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/C8/4G649E8N4W5WZLPOD01TWH.uasset'
+[2025.12.15-15.22.38:020][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G
+[2025.12.15-15.22.38:021][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/PDQ0AB8RLNMVID876FD49G77CF84D14EC6651E74824F8DE6066E1E.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset'
+[2025.12.15-15.22.38:023][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FH/LB6MWH9PFAC273487EYGVM
+[2025.12.15-15.22.38:023][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/LB6MWH9PFAC273487EYGVM3BE78659450843D8AB43B6BAB98C1E5B.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FH/LB6MWH9PFAC273487EYGVM.uasset'
+[2025.12.15-15.22.38:026][669]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SC/ZQBM6RBR8SEOLPC1B5NPG7
+[2025.12.15-15.22.38:026][669]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/ZQBM6RBR8SEOLPC1B5NPG7C2FB5F744FE8ADBD35014C916DFCA4E3.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/SC/ZQBM6RBR8SEOLPC1B5NPG7.uasset'
+[2025.12.15-15.22.38:035][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.978 ms (total: 457.966 ms)
+[2025.12.15-15.22.38:092][669]LogContentValidation: Display: Starting to validate 12 assets
+[2025.12.15-15.22.38:092][669]LogContentValidation: Enabled validators:
+[2025.12.15-15.22.38:092][669]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.15-15.22.38:092][669]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.15-15.22.38:092][669]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.15-15.22.38:092][669]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.15-15.22.38:093][669]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.15-15.22.38:093][669]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.15-15.22.38:093][669]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.12.15-15.22.54:634][490]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.12.15-15.22.54:634][490]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.12.15-15.23.32:584][693]Cmd: EDCALLBACK SURFPROPS
+[2025.12.15-15.23.45:485][ 56]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.12.15-15.23.45:485][ 56]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2025.12.15-15.24.00:394][618]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2878.237549
+[2025.12.15-15.24.00:535][635]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-15.24.00:535][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2878.371094, Update Interval: 303.649414
+[2025.12.15-15.24.13:524][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.15-15.24.13:593][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.12.15-15.24.13:608][ 43]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.15-15.24.13:609][ 43]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/FirstPersonMap61AA69E24A06A8A8C736968736EE95ED.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2025.12.15-15.24.13:616][ 43]LogFileHelpers: Saving map 'FirstPersonMap' took 0.057
+[2025.12.15-15.24.13:634][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave took 110.167 ms (total: 568.134 ms)
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: Enabled validators:
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.15-15.24.13:696][ 43]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.15-15.24.13:696][ 43]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.12.15-15.24.46:871][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.15-15.24.46:938][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.12.15-15.24.46:953][478]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.15-15.24.46:953][478]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/FirstPersonMap455EBBC9443EBB3E01BE26834751B362.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/FirstPerson/Maps/FirstPersonMap.umap'
+[2025.12.15-15.24.46:961][478]LogFileHelpers: Saving map 'FirstPersonMap' took 0.053
+[2025.12.15-15.24.46:962][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/9M/RLCYX8UZ7MCIRNXMN0V5GR
+[2025.12.15-15.24.46:963][478]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/RLCYX8UZ7MCIRNXMN0V5GR0F68E2A845D850CB455210BF9632C3DA.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/9M/RLCYX8UZ7MCIRNXMN0V5GR.uasset'
+[2025.12.15-15.24.46:965][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/WS/M1ZXSBDJNEE3DJ0V485BEN
+[2025.12.15-15.24.46:965][478]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/M1ZXSBDJNEE3DJ0V485BENA612C7224F71F9A3EBB87FB1C2E9BEC4.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/WS/M1ZXSBDJNEE3DJ0V485BEN.uasset'
+[2025.12.15-15.24.46:967][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ
+[2025.12.15-15.24.46:968][478]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/UI1LCXSYKH91XRI7UH6XZQA8B1784B4DC878E7AD01E799E1DF7523.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/XT/UI1LCXSYKH91XRI7UH6XZQ.uasset'
+[2025.12.15-15.24.46:970][478]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/KW/K5Y8ZC86GXWF5U8G3JW4NR
+[2025.12.15-15.24.46:970][478]LogSavePackage: Moving '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Saved/K5Y8ZC86GXWF5U8G3JW4NRF307F43F496D6EF6C4AF4BB87CD3A504.tmp' to '../../../../../../Unreal/turma2025-2-rodrigo-anunciacao/NAO_APAGAR_PFV/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/KW/K5Y8ZC86GXWF5U8G3JW4NR.uasset'
+[2025.12.15-15.24.46:989][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.561 ms (total: 686.695 ms)
+[2025.12.15-15.24.47:043][478]LogContentValidation: Display: Starting to validate 5 assets
+[2025.12.15-15.24.47:043][478]LogContentValidation: Enabled validators:
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.15-15.24.47:043][478]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.15-15.24.47:043][478]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
